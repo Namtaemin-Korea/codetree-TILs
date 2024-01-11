@@ -8,7 +8,7 @@ int main() {
         cout << "ice";
     }
     else if (n >= 100) {
-        cout << "vaper";
+        cout << "vapor";
     }
     else {
         cout << "water";
