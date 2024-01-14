@@ -7,8 +7,11 @@ int main() {
         if (b >= 95) {
             cout << "100000";
         }
-        else {
+        else if (b >= 90) {
             cout << "50000";
+        }
+        else {
+            cout << '0';
         }
     }
     else {
