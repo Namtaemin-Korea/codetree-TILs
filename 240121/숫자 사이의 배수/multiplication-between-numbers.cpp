@@ -11,7 +11,7 @@ int main() {
         sum += (7 * i);
     }
     if (b >= 35) {
-        for (int i = 0; i < (b / 35); i++) {
+        for (int i = 1; i <= (b / 35); i++) {
             sum -= (35 * i);
         }
     }
