@@ -5,7 +5,7 @@ int main() {
     cin >> n;
     for (;;) {
         n /= i;
-        if (n <= 0) {
+        if (n <= 1) {
             cout << i;
             break;
         }
