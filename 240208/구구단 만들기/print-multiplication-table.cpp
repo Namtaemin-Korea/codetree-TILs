@@ -4,10 +4,10 @@ int main() {
     int a, b;
     cin >> a >> b;
     for (int i = 0; i < 9; i++) {
-        for (int j = b; j > 0; j--) {
+        for (int j = b; j > a - 1; j--) {
             cout << j << " * " << i + 1 << " = " << j * (i + 1);
             j--;
-            if (j > 1) {
+            if (j > a) {
                 cout << " / ";
             }
         }
