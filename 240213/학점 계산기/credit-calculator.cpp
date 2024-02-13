@@ -15,10 +15,10 @@ int main() {
     cout.precision(1);
     cout << avg << endl;
 
-    if (round(sum / n) >= 4.0) {
+    if (avg >= 4.0) {
         cout << "Perfect";
     }
-    else if (round(sum / n) >= 3.0) {
+    else if (avg >= 3.0) {
         cout << "Good";
     }
     else {
