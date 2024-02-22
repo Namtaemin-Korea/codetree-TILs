@@ -3,8 +3,8 @@ using namespace std;
 int main() {
     int a, b, arr[10] = { 0, }, sum = 0;
     cin >> a >> b;
-    while (a > 0) {
-        arr[(a % b)]++;
+    while (a > 1) {
+        arr[a % b]++;
         a /= b;
     }
     for (int i = 0; i < 10; i++) {
