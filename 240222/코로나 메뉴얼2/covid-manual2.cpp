@@ -10,12 +10,12 @@ int main() {
                 jin[0]++;
             }
             else {
-                jin[1]++;
+                jin[2]++;
             }
         }
         else {
             if (arr2[i] >= 37) {
-                jin[2]++;
+                jin[1]++;
             }
             else {
                 jin[3]++;
