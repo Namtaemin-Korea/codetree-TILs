@@ -16,8 +16,10 @@ int main() {
     //알고리즘
     for (int i = 0; i < n1; i++) {
         if (A[i] == B[0]) {
+            //cout << "i = " << i << endl;
             int cnt = 1;
-            for (int j = i + 1; j < n2; j++) {
+            for (int j = i + 1; j < i + n2; j++) {
+                //cout << "j = " << j << endl;
                 if (A[j] != B[cnt++]) {
                     output = false;
                     break;
