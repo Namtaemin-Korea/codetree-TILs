@@ -15,6 +15,8 @@ int main() {
 
     //알고리즘
     for (int i = 0; i < n1; i++) {
+        if (output == true)
+            break;
         if (A[i] == B[0]) {
             //cout << "i = " << i << endl;
             int cnt = 1;
