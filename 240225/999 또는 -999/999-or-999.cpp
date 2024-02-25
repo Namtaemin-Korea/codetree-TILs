@@ -10,7 +10,7 @@ int main() {
         }
         if (arr[cnt] > max_val)
             max_val = arr[cnt];
-        else if (arr[cnt] < min_val)
+        if (arr[cnt] < min_val)
             min_val = arr[cnt];
         cnt++;
     } 
