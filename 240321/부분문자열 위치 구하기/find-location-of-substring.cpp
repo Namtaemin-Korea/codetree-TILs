@@ -24,6 +24,8 @@ int main() {
                 break;
             }
         }
+        else 
+            y_n = false;
     }
 
     if (y_n == false)
