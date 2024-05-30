@@ -6,11 +6,11 @@ int main() {
     string A;
     cin >> n >> A;
     string str;
-    bool output = false;
+    int output = 0;
     for (int i = 0; i < n; i++) {
         cin >> str;
         if (A == str) {
-            output = true;
+            output++;
         }
     }
     cout << output;
