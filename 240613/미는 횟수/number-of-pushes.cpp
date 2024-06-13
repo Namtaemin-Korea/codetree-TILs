@@ -9,18 +9,15 @@ int main() {
         if (A != B) {
         A = A.substr(1, A.length()) + A.substr(0, 1);
         output++;
-            if (i == A.length() + 4) {
-                cout << -1;
-                break; 
-            }
         }
         else {
-            cout << output;
             break;
         }
-        
-        
     }
+    if (output > A.length())
+    cout << -1;
+    else 
+    cout << output;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
