@@ -12,7 +12,7 @@ int main() {
             break;
         }
     }
-    if (output > A.length())
+    if (output >= A.length())
     cout << -1;
     else 
     cout << output;
