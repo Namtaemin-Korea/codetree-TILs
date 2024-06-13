@@ -5,12 +5,10 @@ int main() {
     string A, B;
     int output = 0;
     cin >> A >> B;
-    for (int i = 0; i < A.length() + 5; i++) {
-        if (A != B) {
+    for (int i = 0; i < A.length(); i++) {
         A = A.substr(1, A.length()) + A.substr(0, 1);
         output++;
-        }
-        else {
+        if (A == B) {
             break;
         }
     }
